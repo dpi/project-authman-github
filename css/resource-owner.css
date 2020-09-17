@@ -1,0 +1,50 @@
+.authman-github.resource-owner {
+  position: relative;
+  display: flex;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 1em;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.authman-github.resource-owner::before {
+  position: absolute;
+  bottom: 0.33em;
+  right: 0.33em;
+  content: 'GitHub';
+  color: #ddd;
+  font-size: 3em;
+}
+
+.authman-github.resource-owner .picture {
+  order: 1;
+  max-width: 200px;
+  min-width: 64px;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid #e1e4e8;
+}
+
+.authman-github.resource-owner .information {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.authman-github.resource-owner .name {
+  font-size: 1.625em;
+  color: #24292e;
+  font-weight: 600;
+}
+
+.authman-github.resource-owner .username {
+  font-size: 1.25em;
+  color: #666;
+  font-weight: 300;
+}

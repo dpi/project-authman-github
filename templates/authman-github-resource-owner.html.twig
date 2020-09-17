@@ -1,0 +1,13 @@
+<a{{ attributes.addClass('authman-github resource-owner') }} href="{{ element.url }}">
+  <img src="{{ element.avatar_url }}" class="picture" />
+  <div class="information">
+    <div class="personal">
+      {{ 'Owned by'|t }}
+      <div class="name">{{ element.name }}</div>
+      <div class="username">{{ element.username }}</div>
+    </div>
+    <div class="location">
+      {{ element.location }}
+    </div>
+  </div>
+</a>
