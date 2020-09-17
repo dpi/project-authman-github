@@ -1,0 +1,11 @@
+{
+    "name": "drupal/authman_github",
+    "description": "GitHub integration for Authman.",
+    "type": "drupal-module",
+    "require": {
+        "php": "^7.3",
+        "dpi/project-authman": "*",
+        "drupal/core": "^8.9 || ^9",
+        "league/oauth2-github": "^1.0@dev"
+    }
+}
